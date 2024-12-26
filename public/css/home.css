@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    /* background-color: #330a0a; */
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff8f8;
+    height: 100px;
+
+}
+nav .menus ul{
+    display: flex;
+    list-style: none;
+    padding-left: 384px;
+}
+
+nav .menus ul li{
+    margin:0px 21px;
+}
+.menus ul li a{
+    text-decoration: none;
+
+}
