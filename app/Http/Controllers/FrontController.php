@@ -13,7 +13,9 @@ class FrontController extends Controller
     // card ni andar j count hoy jya thi id vade api call
     //loader find karine mukvu..
     //## project inspiration for note making is github.com, laracast.com
-    //
+    //hve view file mathi ajax call marvo api mate
+    // bas khali per api call right div load thava joie = 30-12
+    // solve karvu cdn issue
     public  function index()
     {
         return view('front.profile');
@@ -46,12 +48,15 @@ class FrontController extends Controller
                 }
             }
         }
-
-
         $res= [
             "success"=>true,
             "html"=>$html
         ];
         return response()->json($res);
+    }
+
+    public  function profile()
+    {
+        return view('front.profile');
     }
 }

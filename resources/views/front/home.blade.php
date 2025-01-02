@@ -125,11 +125,15 @@
 </x-layout>
 <script>
     $(".btn-primary").on("click",function(){
+    var url = "{{route('project.data',1)}}";
     $.ajax({
        type:"GET",
        url:"",
+       beforeSend:function(){
+            console.log("waiting ....")
+       },
        success:function(data){
-        console.log('thid')
+        console.log(data)
       }
    });
 });

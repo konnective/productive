@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <title>Ecom buiss</title>
 </head>
 
@@ -27,12 +32,12 @@
                     </ul>
                 </div>
             </nav>
-            <section class="hero_sec">
-                <div class="hero_left">
-                    <div class="hero_wrapper">
-                        <div class="hero_title">Hi There , I'm Kunj</div>
-                        <div class="hero_subtitle">Full Stack Developer</div>
-                        <div class="hero_details"> we understand that visibility on search engines is key to driving
+            <div class="hero_sec row mt-2">
+                <div class="hero_left col-6">
+                    <div class="hero_wrapper text-center p-4">
+                        <div class="hero_title display-2">Hi There , I'm Kunj</div>
+                        <div class="hero_subtitle display-5 mb-2">Full Stack Developer</div>
+                        <div class="hero_details mb-2"> we understand that visibility on search engines is key to driving
                             traffic
                             and
                             business growth. With our comprehensive SEO optimization services, we help your website rank
@@ -44,17 +49,16 @@
                             latest SEO best practices, ensuring your website remains competitive in today’s digital
                             landscape.
                         </div>
+                        <button class="btn bg-info">Know More</button>
                     </div>
-                    <button class="btn">Know More</button>
-
                 </div>
-                <div class="hero_right">
+                <div class="hero_right col-6 ">
                     <div class="hero_img">
-                        <img src="{{ asset('images/kj_withoutbg.png') }}" alt="">
+                        <img src="{{ asset('images/home.png') }}" alt="" height="500">
                     </div>
                 </div>
 
-            </section>
+            </div>
             <section class="features">
                 <div class="features_left">
                     <div class="feature">
